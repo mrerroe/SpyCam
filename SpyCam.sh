@@ -5,10 +5,10 @@
 # Author     : Abir
 # Github     : https://github.com/mrerroe
 # Email      : abirytpk@gmail.com
-# Credits    :. DARK NET HACKER BOYS 
-# Date       : 27-11-2022
+# Credits    : DARK NET HACKER BOYS 
+# Date       : 5-09-2022
 # License    : MIT
-# Copyright  : Abir(2012-2022)
+# Copyright  : ABIR (2021-2022)
 # Language   : Shell
 # Portable File
 # If you copy, consider giving credit! We keep our code open source to help others
@@ -16,7 +16,7 @@
 : '
 MIT License
  
-Copyright (c) 2022 Abir
+Copyright (c) 2022 ABIR
  
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -60,61 +60,36 @@ success="${cyan}[${white}√${cyan}] ${green}"
  
  
  
-version="2.6"
+version="1.5"
  
 cwd=`pwd`
 tunneler_dir="$HOME/.tunneler"
  
 # Logo
-log.               ..........................
-                                   ....................''''
-                                      ..............'''''''
-                                        ..........'''''''''
-                  .;lxOKXNWWNK0xl:.       ......'''''''''''
-                 ;dxO0XXNWWWWWNXXK0kc.     .''''''''',,,,,,
-                ,clodk0XNWMMWWNNXK0Odc      .''''''',,,,,,,
-       .       .,',,,,':kNMMWNKOdc:::;.     .'''',,,,,,,,,,
-      ..       .;xkOkxd;;0MMKx;',:loc'.      ',,,,,,,,,,,;;
-     ....      ':kkxxxOkxxNMXddk0KKKOo.      ',,,,,,,,,;;;;
-    .....      :lol'..':okNWOxo,..':dc.     .,,,,,,;;;;;;;;
-    .....      lOKKKXXXX0OWWO0XXOxdxdl.     .,,,,;;;;;;;;;;
-   .......     oO0KXWWNX0KMMO0NWWNXKKO'     .',,;;;;;;;;;;;
-  ........     ;oxkOOkkKONMWOK00KK0Oko..ox:  .,;;;;;;;;;:::
- .........     ':.,OKXKkc;c::dOKOkl;;, ,KNKo..',;;;;:::::::
-.........       :c'.:ll; :x. lxkx:.c,  .xNNXc.';;::::::::::
-.........       .lcldkkoxKKOlcllc;l;  . 'XMWX;';;::::::::::
-..........      .,looxO0xlldOOkdld,..    dWMWK:;:::::::::::
-..........       .,lxkKNk..0NKOxd'..     .NWNXOcllc::c:cccc
-..........         .cOKNc..KX0x:..        xNWWNXNWXklcccccc
-  ........           .dKd ;XOc..          .ONMMNXWMWXkccccc
-                       .. .,.         .lkkc'kWMWNXWMWXOolcc
-                                      ;XNNNKlKWMWNKNWWX0Okl
-                                    .,:0NWWWNXNWNNXKNWWW0kk
-                                   .kKNX0XWWNWWWWWNK0XNN0dx
-                                   .k0KXKXWWWWWWXXK0O00Oxoc
-                                    cO0XWWWNXKKXK0O0kkOOdl:
-                                    'xOXNXXKKKKKK00OkkOkoc,
-                                    .ldO00KKKKK000OOOkkxc;.
-                                     ;ldk00KKKK00OOOOkxx
-
+logo="
+${green}  ____                _   _            _
+${red} / ___|__ _ _ __ ___ | | | | __ _  ___| | _____ _ __
+${cyan}| |   / _' | '_ ' _ \| |_| |/ _' |/ __| |/ / _ \ '__|
+${purple}| |__| (_| | | | | | |  _  | (_| | (__|   <  __/ |
+${yellow} \____\__,_|_| |_| |_|_| |_|\__,_|\___|_|\_\___|_|
 ${red}                                            [v${version}]
-${blue}                                    [By Arafat Abir]
+${blue}                                    [By ARAFAT ABIR]
 "
  
 ngrok_help="
 ${info}Steps: ${nc}
-${red}[1]${pink} Go to ${green}https://ngrok.com
-${red}[2]${pink} Create an account 
-${red}[3]${pink} Login to your account
-${red}[4]${pink} Visit ${green}https://dashboard.ngrok.com/get-started/your-authtoken${yellow} and copy your authtoken
+${blue}[1]${yellow} Go to ${green}https://ngrok.com
+${blue}[2]${yellow} Create an account 
+${blue}[3]${yellow} Login to your account
+${blue}[4]${yellow} Visit ${green}https://dashboard.ngrok.com/get-started/your-authtoken${yellow} and copy your authtoken
 "
  
 loclx_help="
 ${info}Steps: ${nc}
-${red}[1]${blue} Go to ${green}https://localxpose.io
-${red}[2]${blue} Create an account 
-${red}[3]${blue} Login to your account
-${red}[4]${blue} Visit ${green}https://localxpose.io/dashboard/access${blue} and copy your authtoken
+${blue}[1]${yellow} Go to ${green}https://localxpose.io
+${blue}[2]${yellow} Create an account 
+${blue}[3]${yellow} Login to your account
+${blue}[4]${yellow} Visit ${green}https://localxpose.io/dashboard/access${yellow} and copy your authtoken
 "
  
 # Check for sudo
