@@ -67,11 +67,36 @@ tunneler_dir="$HOME/.tunneler"
  
 # Logo
 logo="
-${green}  ____                _   _            _
-${red} / ___|__ _ _ __ ___ | | | | __ _  ___| | _____ _ __
-${cyan}| |   / _' | '_ ' _ \| |_| |/ _' |/ __| |/ / _ \ '__|
-${purple}| |__| (_| | | | | | |  _  | (_| | (__|   <  __/ |
-${yellow} \____\__,_|_| |_| |_|_| |_|\__,_|\___|_|\_\___|_|
+${green}  _.               ..........................
+                                   ....................''''
+                                      ..............'''''''
+                                        ..........'''''''''
+                  .;lxOKXNWWNK0xl:.       ......'''''''''''
+                 ;dxO0XXNWWWWWNXXK0kc.     .''''''''',,,,,,
+                ,clodk0XNWMMWWNNXK0Odc      .''''''',,,,,,,
+       .       .,',,,,':kNMMWNKOdc:::;.     .'''',,,,,,,,,,
+      ..       .;xkOkxd;;0MMKx;',:loc'.      ',,,,,,,,,,,;;
+     ....      ':kkxxxOkxxNMXddk0KKKOo.      ',,,,,,,,,;;;;
+    .....      :lol'..':okNWOxo,..':dc.     .,,,,,,;;;;;;;;
+    .....      lOKKKXXXX0OWWO0XXOxdxdl.     .,,,,;;;;;;;;;;
+   .......     oO0KXWWNX0KMMO0NWWNXKKO'     .',,;;;;;;;;;;;
+  ........     ;oxkOOkkKONMWOK00KK0Oko..ox:  .,;;;;;;;;;:::
+ .........     ':.,OKXKkc;c::dOKOkl;;, ,KNKo..',;;;;:::::::
+.........       :c'.:ll; :x. lxkx:.c,  .xNNXc.';;::::::::::
+.........       .lcldkkoxKKOlcllc;l;  . 'XMWX;';;::::::::::
+..........      .,looxO0xlldOOkdld,..    dWMWK:;:::::::::::
+..........       .,lxkKNk..0NKOxd'..     .NWNXOcllc::c:cccc
+..........         .cOKNc..KX0x:..        xNWWNXNWXklcccccc
+  ........           .dKd ;XOc..          .ONMMNXWMWXkccccc
+                       .. .,.         .lkkc'kWMWNXWMWXOolcc
+                                      ;XNNNKlKWMWNKNWWX0Okl
+                                    .,:0NWWWNXNWNNXKNWWW0kk
+                                   .kKNX0XWWNWWWWWNK0XNN0dx
+                                   .k0KXKXWWWWWWXXK0O00Oxoc
+                                    cO0XWWWNXKKXK0O0kkOOdl:
+                                    'xOXNXXKKKKKK00OkkOkoc,
+                                    .ldO00KKKKK000OOOkkxc;.
+                                     ;ldk00KKKK00OOOOkxx:.
 ${red}                                            [v${version}]
 ${blue}                                    [By ARAFAT ABIR]
 "
